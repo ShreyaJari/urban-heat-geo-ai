@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# Large raster outputs (optional)
+*.aux.xml
+
+# Temporary files
+.cache/
+cache/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
