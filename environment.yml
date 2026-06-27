@@ -1,0 +1,18 @@
+name: urban-heat-geoai
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pandas
+  - geopandas
+  - rasterio
+  - xarray
+  - rioxarray
+  - scikit-learn
+  - xgboost
+  - shap
+  - matplotlib
+  - plotly
+  - jupyter
+  - ipykernel
