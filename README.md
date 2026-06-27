@@ -38,7 +38,7 @@ The resulting products include high-resolution Land Surface Temperature predicti
 ---
 
 <p align="center">
-<img src="figures/dashboard.jpg" width="1000">
+<img src="figures/Dashboard.png" width="1000">
 </p>
 
 <p align="center">
@@ -93,7 +93,7 @@ These characteristics provide an excellent environment for evaluating machine le
 ---
 
 <p align="center">
-<img src="figures/study_area.jpg" width="700">
+<img src="figures/study_area.png" width="700">
 </p>
 
 <p align="center">
@@ -157,7 +157,7 @@ Urban Heat Risk Mapping
 # Repository Structure
 
 ```text
-urban-heat-geoai/
+urban-heat-geo-ai/
 │
 ├── notebooks/
 │   ├── 01_Study_Area_and_Project_Overview.ipynb
@@ -234,11 +234,11 @@ Builds the machine learning dataset and investigates relationships between envir
 * Spatial relationship assessment
 
 <p align="center">
-<img src="figures/heatmap.png" width="700">
+<img src="figures/heat_map.png" width="700">
 </p>
 
 <p align="center">
-<b>Figure 4.</b> Correlation matrix illustrating relationships between environmental variables and Land Surface Temperature.
+<b>Figure 3.</b> Correlation matrix illustrating relationships between environmental variables and Land Surface Temperature.
 </p>
 
 ---
@@ -280,11 +280,11 @@ The explainability workflow includes:
 These analyses help verify that the model's behaviour aligns with established urban climate principles.
 
 <p align="center">
-<img src="figures/shap_summary-plot.png" width="850">
+<img src="figures/SHAP_summary_plot.png" width="850">
 </p>
 
 <p align="center">
-<b>Figure 5.</b> SHAP summary plot showing the contribution of NDVI, NDBI, and NDWI to predicted Land Surface Temperature.
+<b>Figure 4.</b> SHAP summary plot showing the contribution of NDVI, NDBI, and NDWI to predicted Land Surface Temperature.
 </p>
 
 ---
@@ -311,17 +311,17 @@ The trained machine learning model was deployed across the Nagpur study area to 
 </p>
 
 <p align="center">
-<b>Figure 6.</b> Predicted Land Surface Temperature (left) and corresponding Urban Heat Risk classification (right).
+<b>Figure 5.</b> Predicted Land Surface Temperature (left) and corresponding Urban Heat Risk classification (right).
 </p>
 
 ---
 
 <p align="center">
-<img src="figures/dashboard.png" width="1000">
+<img src="figures/Dashboard.png" width="1000">
 </p>
 
 <p align="center">
-<b>Figure 7.</b> Integrated GeoAI dashboard summarizing environmental predictors and prediction outputs.
+<b>Figure 6.</b> Integrated GeoAI dashboard summarizing environmental predictors and prediction outputs.
 </p>
 
 ---
@@ -380,13 +380,13 @@ The analysis identified several important spatial relationships between environm
 Clone the repository:
 
 ```bash
-git clone https://github.com/ShreyaJari/urban-heat-geo.git
+git clone https://github.com/ShreyaJari/urban-heat-geo-ai.git
 ```
 
 Navigate to the project directory:
 
 ```bash
-cd urban-heat-geoai
+cd urban-heat-geo-ai
 ```
 
 Install the required dependencies:
@@ -468,7 +468,7 @@ GeoAI-Based Urban Heat Island Prediction Using Earth Observation
 and Explainable Machine Learning.
 
 GitHub Repository:
-https://github.com/ShreyaJari/urban-heat-geo
+https://github.com/ShreyaJari/urban-heat-geo-ai
 ```
 
 ---
