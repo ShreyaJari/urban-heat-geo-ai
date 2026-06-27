@@ -1,0 +1,4 @@
+Metric,Random Forest,XGBoost
+R²,0.484,0.486
+MAE (°C),1.184,1.184
+RMSE (°C),1.528,1.525
